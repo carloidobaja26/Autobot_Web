@@ -1,10 +1,13 @@
-
 import './App.css';
+import Dashboard from './Dashboard';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import Nav from './Nav';
 
 function App() {
   return (
     <div className="App">
-      <h1>Autobots!</h1>
+      <Nav />
+      <Dashboard />
     </div>
   );
 }
